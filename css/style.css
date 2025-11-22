@@ -136,3 +136,35 @@ button.register-btn:hover {
 .social-btn:hover {
     background: #f3f3f3;
 }
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.nav a {
+    margin: 0 15px;
+}
+
+.hero {
+    margin-top: 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 450px;
+}
