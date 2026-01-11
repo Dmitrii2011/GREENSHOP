@@ -368,4 +368,67 @@ button.register-btn:hover {
             border: 1px solid #ccc;
         }
 
-        
+        .product-img {
+            position: relative;
+        }
+
+        .product-actions {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .product-card:hover .product-actions {
+            opacity: 1;
+        }
+
+        .action-icon {
+            width: 35px;
+            height: 35px;
+
+            background: #ffffff;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #3D3D3D;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .action-icon:hover {
+            color: #46A358;
+        }
+
+        .badge {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+
+            background: #46A358;
+            color: #ffffff;
+
+            font-size: 13px;
+            font-weight: 500;
+            padding: 4px 8px;
+            border-radius: 3px;
+        }
+
+        .price {
+            color: #46A358;
+            font-weight: 700;
+        }
+
+        .old-price {
+            color: #A5A5A5;
+            text-decoration: line-through;
+            margin-left: 6px;
+            font-size: 14px;
+        }
